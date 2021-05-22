@@ -296,7 +296,9 @@ PODS:
     - React-Core (= 0.63.3)
     - React-cxxreact (= 0.63.3)
     - React-jsi (= 0.63.3)
-  - RNReanimated (2.0.0-alpha.9.1):
+  - RNGestureHandler (1.10.3):
+    - React-Core
+  - RNReanimated (2.0.0):
     - DoubleConversion
     - FBLazyVector
     - FBReactNativeSpec
@@ -376,6 +378,7 @@ DEPENDENCIES:
   - React-RCTText (from `../node_modules/react-native/Libraries/Text`)
   - React-RCTVibration (from `../node_modules/react-native/Libraries/Vibration`)
   - ReactCommon/turbomodule/core (from `../node_modules/react-native/ReactCommon`)
+  - RNGestureHandler (from `../node_modules/react-native-gesture-handler`)
   - RNReanimated (from `../node_modules/react-native-reanimated`)
   - Yoga (from `../node_modules/react-native/ReactCommon/yoga`)
 
@@ -445,6 +448,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native/Libraries/Vibration"
   ReactCommon:
     :path: "../node_modules/react-native/ReactCommon"
+  RNGestureHandler:
+    :path: "../node_modules/react-native-gesture-handler"
   RNReanimated:
     :path: "../node_modules/react-native-reanimated"
   Yoga:
@@ -487,10 +492,11 @@ SPEC CHECKSUMS:
   React-RCTText: 65a6de06a7389098ce24340d1d3556015c38f746
   React-RCTVibration: 8e9fb25724a0805107fc1acc9075e26f814df454
   ReactCommon: 4167844018c9ed375cc01a843e9ee564399e53c3
-  RNReanimated: 134a90b150d6ced792147229cc57f221bede860e
+  RNGestureHandler: a479ebd5ed4221a810967000735517df0d2db211
+  RNReanimated: 5231286440b796e09df3bfa5c1b12b02bfe07664
   Yoga: 7d13633d129fd179e01b8953d38d47be90db185a
   YogaKit: f782866e155069a2cca2517aafea43200b01fd5a
 
 PODFILE CHECKSUM: a4e57723549cf06adae98b6cbc2ceb5cdfc86b1d
 
-COCOAPODS: 1.9.3
+COCOAPODS: 1.10.1

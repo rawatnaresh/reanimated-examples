@@ -11,7 +11,7 @@ const penIcon = require('./pen.png');
 
 const data = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M'];
 
-const ExtendedFab = () => {
+export const ExtendedFab = () => {
   const [offset, setOffset] = React.useState(0);
   const isExtended = useSharedValue(false);
 
@@ -150,4 +150,3 @@ const styles = StyleSheet.create({
     width: 20,
   },
 });
-export default ExtendedFab;

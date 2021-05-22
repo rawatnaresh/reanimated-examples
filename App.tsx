@@ -12,10 +12,11 @@ import React from 'react';
 
 declare const global: { HermesInternal: null | {} };
 
-import ExtendedFab from './src/ExtendedFab';
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
+import { ExtendedFab, ZaraCustomCarousel } from './src/screens';
 
 const App = () => {
-  return <ExtendedFab />;
+  return <ZaraCustomCarousel />;
 };
 
 export default App;
